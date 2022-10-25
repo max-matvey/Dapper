@@ -1,0 +1,211 @@
+@keyframes left {
+    from { 
+        transform: translateX(-23vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes left-sm {
+    from { 
+        transform: translateX(-85vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes centerLeft {
+    from { 
+        transform: translateX(-50vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes right {
+    from { 
+        transform: translateX(23vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes right-sm {
+    from { 
+        transform: translateX(85vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes centerRight {
+    from { 
+        transform: translateX(50vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes circleReverse {
+    from {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        transform: rotate(-180deg);
+    }
+
+    75% {
+        transform: rotate(-270deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes square-1 {
+    from { 
+        top: 10%;
+        left: 5%;
+    }
+
+    25% {
+        top: 10%;
+        left: 49%;
+    }
+
+    50% {
+        top: 60%;
+        left: 49%;
+    }
+
+    75% {
+        top: 60%;
+        left: 5%;
+    }
+
+    to {
+        top: 10%;
+        left: 5%;
+    }
+}
+
+@keyframes square-2 {
+    from { 
+        top: 10%;
+        right: 5%;
+    }
+
+    25% {
+        top: 60%;
+        right: 5%;
+    }
+
+    50% {
+        top: 60%;
+        right: 49%;
+    }
+
+    75% {
+        top: 10%;
+        right: 49%;
+    }
+
+    to {
+        top: 10%;
+        right: 5%;
+    }
+}
+
+@keyframes square-3 {
+    from { 
+        bottom: 0;
+        left: 5%;
+    }
+
+    25% {
+        bottom: 50%;
+        left: 5%;
+    }
+
+    50% {
+        bottom: 50%;
+        left: 49%;
+    }
+
+    75% {
+        bottom: 0;
+        left: 49%;
+    }
+
+    to {
+        bottom: 0;
+        left: 5%;
+    }
+}
+
+@keyframes square-4 {
+    from { 
+        bottom: 0;
+        right: 5%;
+    }
+
+    25% {
+        bottom: 0;
+        right: 49%;
+    }
+
+    50% {
+        bottom: 50%;
+        right: 49%;
+    }
+
+    75% {
+        bottom: 50%;
+        right: 5%;
+    }
+
+    to {
+        bottom: 0;
+        right: 5%;
+    }
+}
